@@ -19,6 +19,7 @@ async def on_ready():
     print('--------')
     print('CREATED AND HOSTED BY INVADER OP')
 
+    
 @client.command(pass_context = True)
 @commands.has_permissions(kick_members=True)     
 async def userinfo(ctx, user: discord.Member):
